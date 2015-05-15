@@ -3,7 +3,6 @@ html {
 }
 
 body {
-  /*background-image: url(../Image/swirl_pattern.png);*/
   margin-left: 0em;
   background-image: url(http://tallulahdoll.files.wordpress.com/2012/11/tribal-pattern_2.jpg);
   margin-right: 0em;
@@ -13,6 +12,29 @@ body {
   border-top: rgb(115, 78, 35);
   border-style: groove;
   border-width: initial;
+}
+
+h4 {
+  background-color: bisque;
+  padding: 8px;
+  border-style: double;
+  margin: 0 auto;
+  display: table;
+  margin-top: 2em;
+}
+
+#newgame {
+  margin: 0 auto;
+  display: table;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  height: 40px;
+  width: 122px;
+  background-color: rgb(210, 173, 244);
+  color: white;
+  border-style: outset;
+  border-color: rgb(240, 236, 239);
+  font-family: sans-serif;
 }
 
 #scoreboard {
@@ -37,32 +59,33 @@ body {
 }
 
 
-#box > canvas {
-  width: 200px;
-  height: 200px;
-  border: 7px solid rgb(14, 134, 151);
-  /* float: left; */
-}
-
 h2 {
   font-size: 3em;
   font-family: 'Playball', cursive;
   ont-style: italic;
 }
 
-
-
-#game-message {
+button#reset {
   margin: 0 auto;
   display: table;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  padding: 1em;
-  background-color: rgb(210, 173, 244);
-  color: white;
-  border-style: outset;
-  border-color: rgb(240, 236, 239);
-  font-family: sans-serif;
+  background-color: bisque;
+  color: brown;
+  border-style: groove;
+  border-width: medium;
+  border-color: blanchedalmond;
+  padding: 11px;
+}
+
+#box div {
+  width: 210px;
+  height: 134px;
+  border: 7px solid rgb(14, 134, 151);
+  float: left;
+  font-size: 5em;
+  text-align: center;
+  background-image: url(http://freegeneraldirectories.com/wp-content/uploads/2014/03/light-pink-lace-pattern-backgroundviewing-gallery-for---light-pink-lace-tumblr-background-liwdhasj-340x180.png);
+  color: rgb(152, 157, 75);
+  padding-top: 1em;
 }
 
 
@@ -88,82 +111,11 @@ h2 {
   border-width: thick;
 }
 
-#canvas4, #canvas7 {
-  /*clear: both;*/
-}
-
 h2 {
   margin: 0 auto;
   display: table;
   color: teal;
-  font-size: xx-large;
+  font-size: 4em;
   font-style: italic;
 }
 
-h3{
-
-    position:relative;
-    -webkit-animation:h3Animation 5s;
-
-}
-
-h1{
-
-    position:relative;
-    -webkit-animation:h1Animation 5s;
-
-}
-
-h2{
-
-    position:relative;
-    -webkit-animation:h2Animation 5s;
-
-}
-
-
-
-///* Animation ///
-
-canvas{
-
-    position:relative;
-    -webkit-animation:canvasAnimation 5s;
-
-}
-
-
-@-webkit-keyframes canvasAnimation {
-
-    0%   {-webkit-transform:rotate(90deg);left:0px; top:0px;}
-
-}
-
-@-webkit-keyframes h1Animation {
-
-    0%   {-webkit-transform:rotate(0deg)}
-    25%   {-webkit-transform:rotate(90deg)}
-    50%  {-webkit-transform:rotate(180deg)}
-    75%  {-webkit-transform:rotate(270deg)}
-    100%  { -webkit-transform:rotate(360deg)}
-
-}
-
-@-webkit-keyframes h2Animation{
-
-    0%   {-webkit-transform: scale(1,2);}
-    25%   {-webkit-transform: scale(2,3);}
-    50%  {-webkit-transform: scale(3,4);}
-    75%  {-webkit-transform: scale(4,5);}
-    100%  { -webkit-transform: scale(0,0);}
-
-}
-@-webkit-keyframes h3Animation{
-
-    0%   {-webkit-transform: scale(0,0);}
-    50% {-webkit-transform: scale(0,0);}
-    100%  {-webkit-transform: scale(100,100);}
-
-}
-
-///*
